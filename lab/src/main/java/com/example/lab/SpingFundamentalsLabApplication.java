@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpingFundamentalsLabApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(SpingFundamentalsLabApplication.class, args);
+		System.out.println("Startup successful");
 	}
 
 }
